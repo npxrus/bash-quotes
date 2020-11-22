@@ -1,0 +1,32 @@
+{
+  "name": "bash-quotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html -d docs/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npxrus/bash-quotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npxrus/bash-quotes/issues"
+  },
+  "homepage": "https://github.com/npxrus/bash-quotes#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
+}
