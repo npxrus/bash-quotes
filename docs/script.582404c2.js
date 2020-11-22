@@ -745,4 +745,3 @@ exports=module.exports=require("./lib/cheerio"),exports.version=require("./packa
 },{"./lib/cheerio":"r6Hg","./package.json":"PqKk"}],"mpVp":[function(require,module,exports) {
 const e=require("axios"),t=require("cheerio"),o=document.querySelector(".container"),n=document.querySelector(".quote-content"),r=document.querySelector(".btn"),c=document.querySelector(".loader"),d=async()=>{c.hidden=!1,o.hidden=!0;try{const a=await e.get("https://cors-anywhere.herokuapp.com/https://bash.im/random"),i=await a.data,h=t.load(i)(".quote__body").eq(11).html();n.innerHTML=h,c.hidden||(o.hidden=!1,c.hidden=!0)}catch(r){console.log(r),d()}};r.addEventListener("click",d),d();
 },{"axios":"dZBD","cheerio":"tWOS"}]},{},["mpVp"], null)
-//# sourceMappingURL=/script.283aa5be.js.map
