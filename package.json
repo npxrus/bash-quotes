@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html -d docs/ --no-source-maps --no-content-hash",
+    "build": "parcel build src/index.html -d docs/ --no-source-maps --public-url .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
